@@ -20,10 +20,10 @@ html, body {
 
 /* CONTAINER PRINCIPAL */
 #container {
-  width: 50%;             /* mobile-first */
+  width: 80%;             /* mobile-first */
   max-width: 350px;       /* limite sur grands écrans */
   background-color: hsl(0, 0%, 100%); /* white */
-  border-radius: 10px;
+  border-radius: 15px;
   box-shadow: 0 12px 10px hsl(212, 45%, 89%), 0 8px 20px hsl(212, 45%, 89%);
   padding: 20px;
   display: flex;
@@ -36,8 +36,8 @@ html, body {
 #img-container {
   width: 100%;
   height: auto;
-  max-height: 300px;
-  border-radius: 10px;
+  max-height: 250px;
+  border-radius: 15px;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -69,7 +69,7 @@ p {
 /* RESPONSIVE : TABLETTE */
 @media (min-width: 500px) {
   #container {
-    max-width: 400px;
+    max-width: 300px;
   }
   h2 {
     font-size: 20px;
@@ -82,7 +82,7 @@ p {
 /* RESPONSIVE : DESKTOP */
 @media (min-width: 900px) {
   #container {
-    max-width: 450px;
+    max-width: 350px;
   }
   h2 {
     font-size: 22px;
